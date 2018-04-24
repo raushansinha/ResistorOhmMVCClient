@@ -6,7 +6,7 @@ namespace ResistorOhmMVCClient.Helper
 {
     public class HttpHelper
     {
-        private string _ohmCalculatorURI = "http://localhost:14009/";
+        private string _ohmCalculatorURI = "http://localhost:14010/";
         HttpClient client = new HttpClient();
         public HttpClient InitializeClient()
         {
